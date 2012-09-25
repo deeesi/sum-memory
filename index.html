@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="de">
+<!--[if lt IE 7 ]><html lang="de" class="no-js ie6"><![endif]-->
+<!--[if IE 7 ]><html lang="de" class="no-js ie7"><![endif]-->
+<!--[if IE 8 ]><html lang="de" class="no-js ie8"><![endif]-->
+<!--[if IE 9 ]><html lang="de" class="no-js ie9"><![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--><!--<![endif]-->
+   <head>
+      <title>Mein lustiges Spiel</title>
+      <meta charset="utf-8" />
+      <link href='http://fonts.googleapis.com/css?family=Alfa+Slab+One' rel='stylesheet' type='text/css'>
+      <script src="js/jquery-1.7.2.min.js" charset="utf-8" defer></script>
+      <script src="js/modernizr.js" charset="utf-8" defer></script>
+      <script src="js/script.js" charset="utf-8" defer></script>
+      <link rel="stylesheet" type="text/css" href="css/normalize.css" />
+      <link rel="stylesheet" type="text/css" href="css/style.css" />
+   </head>
+   <body>
+	   <ul class="cardContainer">
+			<li class="card" data-type="card1"><span class="card-dash"><span class="aufgabe aufgabe1"></span></span></li>
+			<li class="card" data-type="card2"><span class="card-dash"><img src="images/card-basic.jpg"></span></li>
+			<li class="card" data-type="card3"><span class="card-dash"><img src="images/card-gold.jpg"></span></li>
+			<li class="card" data-type="card4"><span class="card-dash"><img src="images/card-toning.jpg"></span></li>
+			<li class="card" data-type="card5"><span class="card-dash"><img src="images/card-cat.jpg"></span></li>
+			<li class="card" data-type="card1"><span class="card-dash"><span class="summe summe1"></span></span></li>
+			<li class="card" data-type="card2"><span class="card-dash"><img src="images/card-basic.jpg"></span></li>
+			<li class="card" data-type="card3"><span class="card-dash"><img src="images/card-gold.jpg"></span></li>
+			<li class="card" data-type="card4"><span class="card-dash"><img src="images/card-toning.jpg"></span></li>
+			<li class="card" data-type="card5"><span class="card-dash"><img src="images/card-cat.jpg"></span></li>	
+		</ul>	
+		
+		
+		
+		
+		<div class="sidebar">
+		<img src="images/logo.png" class="logo">
+		<p>Fehlversuche: </p>
+		<p class="fehlversucheNum"></p>
+		<p>Paare: </p>
+		<p class="paareNum"></p>
+		<p>Zeit: </p>
+		<form name="timer">
+			<input name="time" size="6" readonly="readonly" class="timerFeld" />
+		</form>
+		<div class="zeit">
+			<div class="pause"></div>
+			<div class="play"></div>
+		</div>
+		
+		</div>
+		
+		
+<div class="dimmer"></div>
+<div class="button start-button">
+	<span class="close-layer">Spiel starten</span>
+</div> 
+
+<div class="gewonnen">
+	<img src="images/herzlichenGlueckwunsch.png">
+	<p>Alle Paare gefunden in folgender Zeit:</p>
+	<p><span class="endZeit"></span> Sekunden</p>
+	<span class="button button-long"><a href="index.html">Nochmal spielen</a></span>
+	<span class="button button-long spiel-info-btn">Info zum Spiel</span>
+	<span class="button button-long spiel-beenden-btn">Beenden</span>
+	<div class="bubble">
+		<p>Wirklich sicher, dass du beenden möchtest?</p>
+		<span class="quit-true">Ja, beenden</span><br>
+		<span class="quit-false">Ach nee, doch nicht</span>
+	</div>
+	
+	<div class="spiel-info">
+		<p>Das gehört alles mir!! Die Idee, das Design, die Weltherrschaft und alles Andere auch.<br>
+			Wenn du versuchst, das zu klauen, gibt's Haue. Frag zumindest vorher!<br>
+			<a href="http://www.desi-gn.de" target="_blank">www.desi-gn.de</a></p>
+		<p class="close-info">Weg mit der Info</p>
+	</div>
+</div> 	
+		
+		
+		<div style="display: none;">To do:
+		<ul>
+			<li>Level: 4 Karten bis 24 Karten, dann schwierigere Aufgaben</li>
+			<li>Highscore</li>
+			<li></li>
+			<li></li>
+			<li>Karten Bilder Animation</li>
+			<li>Hübsch machen (responsive)</li>
+			<li>2 Spieler Modus</li>
+		</ul>
+		</div>
+   </body>
+</html>
