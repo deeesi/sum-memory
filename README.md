@@ -1,6 +1,6 @@
 sum-memory
 ==========
 
-This project ist in progress
+This project is in progress
     
 - - -
